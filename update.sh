@@ -23,6 +23,8 @@ replace_field() {
 declare -A otherRepos=(
 	[rpi-node]='https://github.com/resin-io-library/docker-node'
 	[rpi-buildpack-deps]='https://github.com/resin-io-library/buildpack-deps'
+	[armv7hf-node]='https://github.com/resin-io-library/docker-node'
+	[armv7hf-buildpack-deps]='https://github.com/resin-io-library/buildpack-deps'
 )
 
 dockerLatest="$(curl -sSL 'https://get.docker.com/latest')"
