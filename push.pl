@@ -144,29 +144,31 @@ while (my $repo = shift) { # '/_/hylang', '/u/tianon/perl', etc
 	die 'failed to find form on ' . $repoUrl unless $settingsForm;
 	my $settingsBits = get_form_bits($settingsForm);
 	
-	my $hubShort = $settingsBits->{description};
-	my $hubLong = $settingsBits->{full_description};
+	#my $hubShort = $settingsBits->{description};
+	#my $hubLong = $settingsBits->{full_description};
 	
-	if ($hubShort ne $short) {
-		my $file = File::Temp->new(SUFFIX => '.txt');
-		my $filename = $file->filename;
-		spurt encode('UTF-8', $hubShort . "\n"), $filename;
-		system('vimdiff', $filename, $shortFile) == 0 or die "vimdiff on $filename and $shortFile failed";
-		$hubShort = trim(decode('UTF-8', slurp($filename)));
-	}
+	#if ($hubShort ne $short) {
+	#	my $file = File::Temp->new(SUFFIX => '.txt');
+	#	my $filename = $file->filename;
+	#	spurt encode('UTF-8', $hubShort . "\n"), $filename;
+	#	system('vimdiff', $filename, $shortFile) == 0 or die "vimdiff on $filename and $shortFile failed";
+	#	$hubShort = trim(decode('UTF-8', slurp($filename)));
+	#}
 	
-	if ($hubLong ne $long) {
-		my $file = File::Temp->new(SUFFIX => '.md');
-		my $filename = $file->filename;
-		spurt encode('UTF-8', $hubLong . "\n"), $filename;
-		system('vimdiff', $filename, $longFile) == 0 or die "vimdiff on $filename and $longFile failed";
-		$hubLong = trim(decode('UTF-8', slurp($filename)));
-	}
+	#if ($hubLong ne $long) {
+	#	my $file = File::Temp->new(SUFFIX => '.md');
+	#	my $filename = $file->filename;
+	#	spurt encode('UTF-8', $hubLong . "\n"), $filename;
+	#	system('vimdiff', $filename, $longFile) == 0 or die "vimdiff on $filename and $longFile failed";
+	#	$hubLong = trim(decode('UTF-8', slurp($filename)));
+	#}
 	
-	say 'no change to ' . $repoName . '; skipping' and next if $settingsBits->{description} eq $hubShort and $settingsBits->{full_description} eq $hubLong;
+	#say 'no change to ' . $repoName . '; skipping' and next if $settingsBits->{description} eq $hubShort and $settingsBits->{full_description} eq $hubLong;
 	
-	$settingsBits->{description} = $hubShort;
-	$settingsBits->{full_description} = $hubLong;
+	#$settingsBits->{description} = $hubShort;
+	$settingsBits->{description} = $short;
+	#$settingsBits->{full_description} = $hubLong;
+	$settingsBits->{full_description} = $long;
 	
 	$repoTx = $ua->post($repoUrl => { Referer => $repoUrl } => form => $settingsBits);
 	die 'post to ' . $repoUrl . ' failed' unless $repoTx->success;

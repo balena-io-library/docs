@@ -1,19 +1,22 @@
 # Supported tags and respective `Dockerfile` links
 
--	[`jessie-curl`, `curl` (*rpi/jessie/curl/Dockerfile*)](https://github.com/resin-io-library/buildpack-deps/blob/8fbe6864378a6b04678ab6efed76f22b13bfdf0f/rpi/jessie/curl/Dockerfile)
--	[`jessie-scm`, `scm` (*rpi/jessie/scm/Dockerfile*)](https://github.com/resin-io-library/buildpack-deps/blob/8fbe6864378a6b04678ab6efed76f22b13bfdf0f/rpi/jessie/scm/Dockerfile)
--	[`jessie`, `latest` (*rpi/jessie/Dockerfile*)](https://github.com/resin-io-library/buildpack-deps/blob/8fbe6864378a6b04678ab6efed76f22b13bfdf0f/rpi/jessie/Dockerfile)
--	[`wheezy-curl` (*rpi/wheezy/curl/Dockerfile*)](https://github.com/resin-io-library/buildpack-deps/blob/8fbe6864378a6b04678ab6efed76f22b13bfdf0f/rpi/wheezy/curl/Dockerfile)
--	[`wheezy-scm` (*rpi/wheezy/scm/Dockerfile*)](https://github.com/resin-io-library/buildpack-deps/blob/8fbe6864378a6b04678ab6efed76f22b13bfdf0f/rpi/wheezy/scm/Dockerfile)
--	[`wheezy` (*rpi/wheezy/Dockerfile*)](https://github.com/resin-io-library/buildpack-deps/blob/8fbe6864378a6b04678ab6efed76f22b13bfdf0f/rpi/wheezy/Dockerfile)
+-	[`jessie-curl`, `curl` (*armv7hf/jessie/curl/Dockerfile*)](https://github.com/resin-io-library/buildpack-deps/blob/8fbe6864378a6b04678ab6efed76f22b13bfdf0f/armv7hf/jessie/curl/Dockerfile)
+-	[`jessie-scm`, `scm` (*armv7hf/jessie/scm/Dockerfile*)](https://github.com/resin-io-library/buildpack-deps/blob/8fbe6864378a6b04678ab6efed76f22b13bfdf0f/armv7hf/jessie/scm/Dockerfile)
+-	[`jessie`, `latest` (*armv7hf/jessie/Dockerfile*)](https://github.com/resin-io-library/buildpack-deps/blob/8fbe6864378a6b04678ab6efed76f22b13bfdf0f/armv7hf/jessie/Dockerfile)
+-	[`sid-curl` (*armv7hf/sid/curl/Dockerfile*)](https://github.com/resin-io-library/buildpack-deps/blob/8fbe6864378a6b04678ab6efed76f22b13bfdf0f/armv7hf/sid/curl/Dockerfile)
+-	[`sid-scm` (*armv7hf/sid/scm/Dockerfile*)](https://github.com/resin-io-library/buildpack-deps/blob/8fbe6864378a6b04678ab6efed76f22b13bfdf0f/armv7hf/sid/scm/Dockerfile)
+-	[`sid` (*armv7hf/sid/Dockerfile*)](https://github.com/resin-io-library/buildpack-deps/blob/8fbe6864378a6b04678ab6efed76f22b13bfdf0f/armv7hf/sid/Dockerfile)
+-	[`wheezy-curl` (*armv7hf/wheezy/curl/Dockerfile*)](https://github.com/resin-io-library/buildpack-deps/blob/8fbe6864378a6b04678ab6efed76f22b13bfdf0f/armv7hf/wheezy/curl/Dockerfile)
+-	[`wheezy-scm` (*armv7hf/wheezy/scm/Dockerfile*)](https://github.com/resin-io-library/buildpack-deps/blob/8fbe6864378a6b04678ab6efed76f22b13bfdf0f/armv7hf/wheezy/scm/Dockerfile)
+-	[`wheezy` (*armv7hf/wheezy/Dockerfile*)](https://github.com/resin-io-library/buildpack-deps/blob/8fbe6864378a6b04678ab6efed76f22b13bfdf0f/armv7hf/wheezy/Dockerfile)
 
-For more information about this image and its history, please see the [relevant manifest file (`resin/rpi-buildpack-deps`)](https://github.com/resin-io-library/official-images/blob/master/library/rpi-buildpack-deps) in the [`resin-io-library/official-images` GitHub repo](https://github.com/resin-io-library/official-images).
+For more information about this image and its history, please see the [relevant manifest file (`resin/armv7hf-buildpack-deps`)](https://github.com/resin-io-library/official-images/blob/master/library/armv7hf-buildpack-deps) in the [`resin-io-library/official-images` GitHub repo](https://github.com/resin-io-library/official-images).
 
 # What is `buildpack-deps`?
 
 In spirit, `buildpack-deps` is similar to [Heroku's stack images](https://github.com/heroku/stack-images/blob/master/bin/cedar.sh). It includes a large number of "development header" packages needed by various things like Ruby Gems, PyPI modules, etc. For example, `buildpack-deps` would let you do a `bundle install` in an arbitrary application directory without knowing beforehand that `ssl.h` is required to build a dependent module.
 
-![logo](https://raw.githubusercontent.com/resin-io-library/docs/master/rpi-buildpack-deps/logo.png)
+![logo](https://raw.githubusercontent.com/resin-io-library/docs/master/armv7hf-buildpack-deps/logo.png)
 
 # How to use this image
 
