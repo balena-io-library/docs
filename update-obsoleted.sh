@@ -11,7 +11,7 @@ for repo in $repos; do
 	# Generate new dir
 	mkdir $repo
 	cat <<-EOF > $repo/README.md
-		This repository is obsolete. Please check http://docs.resin.io/#/pages/configuration/resin-base-images.md for information about resin docker images.
+		This repository is obsolete. Please check http://docs.resin.io/#/pages/runtime/resin-base-images.md for information about resin docker images.
 	EOF
 
 	cat <<-EOF > $repo/README-short.txt
