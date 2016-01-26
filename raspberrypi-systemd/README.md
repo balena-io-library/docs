@@ -1,7 +1,7 @@
 # Supported tags and respective `Dockerfile` links
 
--	[`jessie`, `latest` (*systemd/rpi/jessie/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/530095359baa58850b65c19665f0f63ecd4ca989/systemd/rpi/jessie/Dockerfile)
--	[`wheezy` (*systemd/rpi/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/006a367b75f2b8b6f8df2146a116df1ee624514c/systemd/rpi/wheezy/Dockerfile)
+-	[`jessie`, `latest` (*systemd/rpi/jessie/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4f42681c8d6a67fb9ab049d9d79535bac8122d34/systemd/rpi/jessie/Dockerfile)
+-	[`wheezy` (*systemd/rpi/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/88d1f519546a3f4535048c356bdf9e4595898033/systemd/rpi/wheezy/Dockerfile)
 
 For more information about this image and its history, please see the [relevant manifest file (`resin/raspberrypi-systemd`)](https://github.com/resin-io-library/official-images/blob/master/library/raspberrypi-systemd) in the [`resin-io-library/official-images` GitHub repo](https://github.com/resin-io-library/official-images).
 
@@ -33,7 +33,7 @@ You can then build and run the Docker image:
 
 # Supported Docker versions
 
-This image is officially supported on Docker version 1.8.3.
+This image is officially supported on Docker version 1.9.1.
 
 Support for older versions (down to 1.0) is provided on a best-effort basis.
 

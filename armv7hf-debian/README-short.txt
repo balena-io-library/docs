@@ -1,1 +1,1 @@
-Debian Base image for ARMv7 Devices.
+Debian Base image for ARMv5 Devices.

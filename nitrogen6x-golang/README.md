@@ -1,11 +1,11 @@
 # Supported tags and respective `Dockerfile` links
 
--	[`1.4.3`, `1.4` (*golang/nitrogen6x/1.4/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/436f57a419aa35da0dc95289c90fe8b549e96d39/golang/nitrogen6x/1.4/Dockerfile)
--	[`1.4.3-slim`, `1.4-slim` (*golang/nitrogen6x/1.4/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/436f57a419aa35da0dc95289c90fe8b549e96d39/golang/nitrogen6x/1.4/slim/Dockerfile)
--	[`1.4.3-wheezy`, `1.4-wheezy` (*golang/nitrogen6x/1.4/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/436f57a419aa35da0dc95289c90fe8b549e96d39/golang/nitrogen6x/1.4/wheezy/Dockerfile)
--	[`1.5.1`, `1.5`, `0`, `latest` (*golang/nitrogen6x/1.5/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/436f57a419aa35da0dc95289c90fe8b549e96d39/golang/nitrogen6x/1.5/Dockerfile)
--	[`1.5.1-slim`, `1.5-slim`, `0-slim`, `slim` (*golang/nitrogen6x/1.5/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/436f57a419aa35da0dc95289c90fe8b549e96d39/golang/nitrogen6x/1.5/slim/Dockerfile)
--	[`1.5.1-wheezy`, `1.5-wheezy`, `0-wheezy`, `wheezy` (*golang/nitrogen6x/1.5/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/436f57a419aa35da0dc95289c90fe8b549e96d39/golang/nitrogen6x/1.5/wheezy/Dockerfile)
+-	[`1.4.3`, `1.4` (*golang/nitrogen6x/1.4/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/22e06093d343189f1d7c0b1c6904528638a99640/golang/nitrogen6x/1.4/Dockerfile)
+-	[`1.4.3-slim`, `1.4-slim` (*golang/nitrogen6x/1.4/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/22e06093d343189f1d7c0b1c6904528638a99640/golang/nitrogen6x/1.4/slim/Dockerfile)
+-	[`1.4.3-wheezy`, `1.4-wheezy` (*golang/nitrogen6x/1.4/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/bd2ed2c82109c22cfab5b07b1b312b8e6450e643/golang/nitrogen6x/1.4/wheezy/Dockerfile)
+-	[`1.5.2`, `1.5`, `0`, `latest` (*golang/nitrogen6x/1.5/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/22e06093d343189f1d7c0b1c6904528638a99640/golang/nitrogen6x/1.5/Dockerfile)
+-	[`1.5.2-slim`, `1.5-slim`, `0-slim`, `slim` (*golang/nitrogen6x/1.5/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/22e06093d343189f1d7c0b1c6904528638a99640/golang/nitrogen6x/1.5/slim/Dockerfile)
+-	[`1.5.2-wheezy`, `1.5-wheezy`, `0-wheezy`, `wheezy` (*golang/nitrogen6x/1.5/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/5dfce6ddcc6095da54a5e59ee35e0a208891b82b/golang/nitrogen6x/1.5/wheezy/Dockerfile)
 
 For more information about this image and its history, please see the [relevant manifest file (`resin/nitrogen6x-golang`)](https://github.com/resin-io-library/official-images/blob/master/library/nitrogen6x-golang) in the [`resin-io-library/official-images` GitHub repo](https://github.com/resin-io-library/official-images).
 
@@ -41,7 +41,7 @@ View [license information](http://golang.org/LICENSE) for the software contained
 
 # Supported Docker versions
 
-This image is officially supported on Docker version 1.8.3.
+This image is officially supported on Docker version 1.9.1.
 
 Support for older versions (down to 1.0) is provided on a best-effort basis.
 
@@ -49,10 +49,10 @@ Support for older versions (down to 1.0) is provided on a best-effort basis.
 
 ## Issues
 
-If you have any problems with or questions about this image, please contact us through a [GitHub issue](https://github.com/resin-io-library/nitrogen6x-golang/issues).
+If you have any problems with or questions about this image, please contact us through a [GitHub issue](https://github.com/resin-io-library/base-images/issues).
 
 ## Contributing
 
 You are invited to contribute new features, fixes, or updates, large or small; we are always thrilled to receive pull requests, and do our best to process them as fast as we can.
 
-Before you start to code, we recommend discussing your plans through a [GitHub issue](https://github.com/resin-io-library/nitrogen6x-golang/issues), especially for more ambitious contributions. This gives other contributors a chance to point you in the right direction, give you feedback on your design, and help you find out if someone else is working on the same thing.
+Before you start to code, we recommend discussing your plans through a [GitHub issue](https://github.com/resin-io-library/base-images/issues), especially for more ambitious contributions. This gives other contributors a chance to point you in the right direction, give you feedback on your design, and help you find out if someone else is working on the same thing.

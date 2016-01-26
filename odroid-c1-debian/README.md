@@ -1,7 +1,6 @@
 # Supported tags and respective `Dockerfile` links
 
--	[`jessie`, `latest` (*device-base/odroid-c1/jessie/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/0ce826f81a86df8f0ce6d297822fc78f4c2dcaf8/device-base/odroid-c1/jessie/Dockerfile)
--	[`wheezy` (*device-base/odroid-c1/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/0ce826f81a86df8f0ce6d297822fc78f4c2dcaf8/device-base/odroid-c1/wheezy/Dockerfile)
+
 
 For more information about this image and its history, please see the [relevant manifest file (`resin/odroid-c1-debian`)](https://github.com/resin-io-library/official-images/blob/master/library/odroid-c1-debian) in the [`resin-io-library/official-images` GitHub repo](https://github.com/resin-io-library/official-images).
 
@@ -31,7 +30,7 @@ View [license information](https://www.debian.org/social_contract#guidelines) fo
 
 # Supported Docker versions
 
-This image is officially supported on Docker version 1.8.3.
+This image is officially supported on Docker version 1.9.1.
 
 Support for older versions (down to 1.0) is provided on a best-effort basis.
 

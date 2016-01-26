@@ -1,11 +1,6 @@
 # Supported tags and respective `Dockerfile` links
 
--	[`1.4.3`, `1.4` (*golang/zc702-zynq7/1.4/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/436f57a419aa35da0dc95289c90fe8b549e96d39/golang/zc702-zynq7/1.4/Dockerfile)
--	[`1.4.3-slim`, `1.4-slim` (*golang/zc702-zynq7/1.4/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/436f57a419aa35da0dc95289c90fe8b549e96d39/golang/zc702-zynq7/1.4/slim/Dockerfile)
--	[`1.4.3-wheezy`, `1.4-wheezy` (*golang/zc702-zynq7/1.4/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/436f57a419aa35da0dc95289c90fe8b549e96d39/golang/zc702-zynq7/1.4/wheezy/Dockerfile)
--	[`1.5.1`, `1.5`, `0`, `latest` (*golang/zc702-zynq7/1.5/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/436f57a419aa35da0dc95289c90fe8b549e96d39/golang/zc702-zynq7/1.5/Dockerfile)
--	[`1.5.1-slim`, `1.5-slim`, `0-slim`, `slim` (*golang/zc702-zynq7/1.5/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/436f57a419aa35da0dc95289c90fe8b549e96d39/golang/zc702-zynq7/1.5/slim/Dockerfile)
--	[`1.5.1-wheezy`, `1.5-wheezy`, `0-wheezy`, `wheezy` (*golang/zc702-zynq7/1.5/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/436f57a419aa35da0dc95289c90fe8b549e96d39/golang/zc702-zynq7/1.5/wheezy/Dockerfile)
+
 
 For more information about this image and its history, please see the [relevant manifest file (`resin/zc702-zynq7-golang`)](https://github.com/resin-io-library/official-images/blob/master/library/zc702-zynq7-golang) in the [`resin-io-library/official-images` GitHub repo](https://github.com/resin-io-library/official-images).
 
@@ -41,7 +36,7 @@ View [license information](http://golang.org/LICENSE) for the software contained
 
 # Supported Docker versions
 
-This image is officially supported on Docker version 1.8.3.
+This image is officially supported on Docker version 1.9.1.
 
 Support for older versions (down to 1.0) is provided on a best-effort basis.
 
@@ -49,10 +44,10 @@ Support for older versions (down to 1.0) is provided on a best-effort basis.
 
 ## Issues
 
-If you have any problems with or questions about this image, please contact us through a [GitHub issue](https://github.com/resin-io-library/zc702-zynq7-golang/issues).
+If you have any problems with or questions about this image, please contact us through a [GitHub issue](https://github.com/resin-io-library/base-images/issues).
 
 ## Contributing
 
 You are invited to contribute new features, fixes, or updates, large or small; we are always thrilled to receive pull requests, and do our best to process them as fast as we can.
 
-Before you start to code, we recommend discussing your plans through a [GitHub issue](https://github.com/resin-io-library/zc702-zynq7-golang/issues), especially for more ambitious contributions. This gives other contributors a chance to point you in the right direction, give you feedback on your design, and help you find out if someone else is working on the same thing.
+Before you start to code, we recommend discussing your plans through a [GitHub issue](https://github.com/resin-io-library/base-images/issues), especially for more ambitious contributions. This gives other contributors a chance to point you in the right direction, give you feedback on your design, and help you find out if someone else is working on the same thing.

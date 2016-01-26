@@ -1,7 +1,7 @@
 # Supported tags and respective `Dockerfile` links
 
--	[`jessie`, `latest` (*device-base/zc702-zynq7/jessie/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/006a367b75f2b8b6f8df2146a116df1ee624514c/device-base/zc702-zynq7/jessie/Dockerfile)
--	[`wheezy` (*device-base/zc702-zynq7/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/006a367b75f2b8b6f8df2146a116df1ee624514c/device-base/zc702-zynq7/wheezy/Dockerfile)
+-	[`jessie`, `latest` (*device-base/zc702-zynq7/jessie/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/264e3a976f6f9b2b0209515989445e47b48275a1/device-base/zc702-zynq7/jessie/Dockerfile)
+-	[`wheezy` (*device-base/zc702-zynq7/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/264e3a976f6f9b2b0209515989445e47b48275a1/device-base/zc702-zynq7/wheezy/Dockerfile)
 
 For more information about this image and its history, please see the [relevant manifest file (`resin/zc702-zynq7-debian`)](https://github.com/resin-io-library/official-images/blob/master/library/zc702-zynq7-debian) in the [`resin-io-library/official-images` GitHub repo](https://github.com/resin-io-library/official-images).
 
@@ -31,7 +31,7 @@ View [license information](https://www.debian.org/social_contract#guidelines) fo
 
 # Supported Docker versions
 
-This image is officially supported on Docker version 1.8.3.
+This image is officially supported on Docker version 1.9.1.
 
 Support for older versions (down to 1.0) is provided on a best-effort basis.
 

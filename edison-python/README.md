@@ -1,7 +1,25 @@
 # Supported tags and respective `Dockerfile` links
 
--	[`jessie`, `latest` (*python/edison/jessie/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/11b45b65c22c2965ee75e8a6a7b6ab8a1dab027b/python/edison/jessie/Dockerfile)
--	[`wheezy` (*python/edison/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/11b45b65c22c2965ee75e8a6a7b6ab8a1dab027b/python/edison/wheezy/Dockerfile)
+-	[`2.7.11`, `2.7`, `latest` (*python/edison/2.7/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/22e06093d343189f1d7c0b1c6904528638a99640/python/edison/2.7/Dockerfile)
+-	[`2.7.11-onbuild`, `2.7-onbuild`, `onbuild` (*python/edison/2.7/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/python/edison/2.7/onbuild/Dockerfile)
+-	[`2.7.11-slim`, `2.7-slim`, `slim` (*python/edison/2.7/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/22e06093d343189f1d7c0b1c6904528638a99640/python/edison/2.7/slim/Dockerfile)
+-	[`2.7.11-wheezy`, `2.7-wheezy`, `wheezy` (*python/edison/2.7/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/22e06093d343189f1d7c0b1c6904528638a99640/python/edison/2.7/wheezy/Dockerfile)
+-	[`3.2.6`, `3.2` (*python/edison/3.2/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/python/edison/3.2/Dockerfile)
+-	[`3.2.6-onbuild`, `3.2-onbuild` (*python/edison/3.2/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/a61f20f2fd715789d89f0c262b74cb63934b84c9/python/edison/3.2/onbuild/Dockerfile)
+-	[`3.2.6-slim`, `3.2-slim` (*python/edison/3.2/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/python/edison/3.2/slim/Dockerfile)
+-	[`3.2.6-wheezy`, `3.2-wheezy` (*python/edison/3.2/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/python/edison/3.2/wheezy/Dockerfile)
+-	[`3.3.6`, `3.3` (*python/edison/3.3/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/python/edison/3.3/Dockerfile)
+-	[`3.3.6-onbuild`, `3.3-onbuild` (*python/edison/3.3/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/a61f20f2fd715789d89f0c262b74cb63934b84c9/python/edison/3.3/onbuild/Dockerfile)
+-	[`3.3.6-slim`, `3.3-slim` (*python/edison/3.3/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/python/edison/3.3/slim/Dockerfile)
+-	[`3.3.6-wheezy`, `3.3-wheezy` (*python/edison/3.3/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/python/edison/3.3/wheezy/Dockerfile)
+-	[`3.4.4`, `3.4` (*python/edison/3.4/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/python/edison/3.4/Dockerfile)
+-	[`3.4.4-onbuild`, `3.4-onbuild` (*python/edison/3.4/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/python/edison/3.4/onbuild/Dockerfile)
+-	[`3.4.4-slim`, `3.4-slim` (*python/edison/3.4/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/python/edison/3.4/slim/Dockerfile)
+-	[`3.4.4-wheezy`, `3.4-wheezy` (*python/edison/3.4/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/python/edison/3.4/wheezy/Dockerfile)
+-	[`3.5.1`, `3.5` (*python/edison/3.5/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/python/edison/3.5/Dockerfile)
+-	[`3.5.1-onbuild`, `3.5-onbuild` (*python/edison/3.5/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/python/edison/3.5/onbuild/Dockerfile)
+-	[`3.5.1-slim`, `3.5-slim` (*python/edison/3.5/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/python/edison/3.5/slim/Dockerfile)
+-	[`3.5.1-wheezy`, `3.5-wheezy` (*python/edison/3.5/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/python/edison/3.5/wheezy/Dockerfile)
 
 For more information about this image and its history, please see the [relevant manifest file (`resin/edison-python`)](https://github.com/resin-io-library/official-images/blob/master/library/edison-python) in the [`resin-io-library/official-images` GitHub repo](https://github.com/resin-io-library/official-images).
 
@@ -31,7 +49,7 @@ View [license information](https://docs.python.org/2/license.html) for the softw
 
 # Supported Docker versions
 
-This image is officially supported on Docker version 1.8.3.
+This image is officially supported on Docker version 1.9.1.
 
 Support for older versions (down to 1.0) is provided on a best-effort basis.
 

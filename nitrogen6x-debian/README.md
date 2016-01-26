@@ -1,7 +1,7 @@
 # Supported tags and respective `Dockerfile` links
 
--	[`jessie`, `latest` (*device-base/nitrogen6x/jessie/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/ba19c4ab07ad2e30e5d62cd5745f5296b0ec0ccb/device-base/nitrogen6x/jessie/Dockerfile)
--	[`wheezy` (*device-base/nitrogen6x/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/ba19c4ab07ad2e30e5d62cd5745f5296b0ec0ccb/device-base/nitrogen6x/wheezy/Dockerfile)
+-	[`jessie`, `latest` (*device-base/nitrogen6x/jessie/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/264e3a976f6f9b2b0209515989445e47b48275a1/device-base/nitrogen6x/jessie/Dockerfile)
+-	[`wheezy` (*device-base/nitrogen6x/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/264e3a976f6f9b2b0209515989445e47b48275a1/device-base/nitrogen6x/wheezy/Dockerfile)
 
 For more information about this image and its history, please see the [relevant manifest file (`resin/nitrogen6x-debian`)](https://github.com/resin-io-library/official-images/blob/master/library/nitrogen6x-debian) in the [`resin-io-library/official-images` GitHub repo](https://github.com/resin-io-library/official-images).
 
@@ -31,7 +31,7 @@ View [license information](https://www.debian.org/social_contract#guidelines) fo
 
 # Supported Docker versions
 
-This image is officially supported on Docker version 1.8.3.
+This image is officially supported on Docker version 1.9.1.
 
 Support for older versions (down to 1.0) is provided on a best-effort basis.
 

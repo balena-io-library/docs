@@ -1,29 +1,25 @@
 # Supported tags and respective `Dockerfile` links
 
--	[`0.10.40`, `0.10` (*node/vab820-quad/0.10/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4df1311c1ca1df7be056a759030c7eb571d2be54/node/vab820-quad/0.10/Dockerfile)
--	[`0.10.40-onbuild`, `0.10-onbuild` (*node/vab820-quad/0.10/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c4f86f276a6da51e6c063b00ba52df0ad86f47c3/node/vab820-quad/0.10/onbuild/Dockerfile)
--	[`0.10.40-slim`, `0.10-slim` (*node/vab820-quad/0.10/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4df1311c1ca1df7be056a759030c7eb571d2be54/node/vab820-quad/0.10/slim/Dockerfile)
--	[`0.10.40-wheezy`, `0.10-wheezy` (*node/vab820-quad/0.10/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4df1311c1ca1df7be056a759030c7eb571d2be54/node/vab820-quad/0.10/wheezy/Dockerfile)
--	[`0.11.16`, `0.11` (*node/vab820-quad/0.11/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4df1311c1ca1df7be056a759030c7eb571d2be54/node/vab820-quad/0.11/Dockerfile)
--	[`0.11.16-onbuild`, `0.11-onbuild` (*node/vab820-quad/0.11/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/2fa97540911026369eaf9bd1574a8e7b59e99091/node/vab820-quad/0.11/onbuild/Dockerfile)
--	[`0.11.16-slim`, `0.11-slim` (*node/vab820-quad/0.11/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4df1311c1ca1df7be056a759030c7eb571d2be54/node/vab820-quad/0.11/slim/Dockerfile)
--	[`0.11.16-wheezy`, `0.11-wheezy` (*node/vab820-quad/0.11/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4df1311c1ca1df7be056a759030c7eb571d2be54/node/vab820-quad/0.11/wheezy/Dockerfile)
--	[`0.12.7`, `0.12`, `0`, `latest` (*node/vab820-quad/0.12/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4df1311c1ca1df7be056a759030c7eb571d2be54/node/vab820-quad/0.12/Dockerfile)
--	[`0.12.7-onbuild`, `0.12-onbuild`, `0-onbuild`, `onbuild` (*node/vab820-quad/0.12/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c4f86f276a6da51e6c063b00ba52df0ad86f47c3/node/vab820-quad/0.12/onbuild/Dockerfile)
--	[`0.12.7-slim`, `0.12-slim`, `0-slim`, `slim` (*node/vab820-quad/0.12/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4df1311c1ca1df7be056a759030c7eb571d2be54/node/vab820-quad/0.12/slim/Dockerfile)
--	[`0.12.7-wheezy`, `0.12-wheezy`, `0-wheezy`, `wheezy` (*node/vab820-quad/0.12/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4df1311c1ca1df7be056a759030c7eb571d2be54/node/vab820-quad/0.12/wheezy/Dockerfile)
--	[`0.9.12`, `0.9` (*node/vab820-quad/0.9/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4df1311c1ca1df7be056a759030c7eb571d2be54/node/vab820-quad/0.9/Dockerfile)
--	[`0.9.12-onbuild`, `0.9-onbuild` (*node/vab820-quad/0.9/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/2fa97540911026369eaf9bd1574a8e7b59e99091/node/vab820-quad/0.9/onbuild/Dockerfile)
--	[`0.9.12-slim`, `0.9-slim` (*node/vab820-quad/0.9/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4df1311c1ca1df7be056a759030c7eb571d2be54/node/vab820-quad/0.9/slim/Dockerfile)
--	[`0.9.12-wheezy`, `0.9-wheezy` (*node/vab820-quad/0.9/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4df1311c1ca1df7be056a759030c7eb571d2be54/node/vab820-quad/0.9/wheezy/Dockerfile)
--	[`4.0.0`, `4.0` (*node/vab820-quad/4.0/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4df1311c1ca1df7be056a759030c7eb571d2be54/node/vab820-quad/4.0/Dockerfile)
--	[`4.0.0-onbuild`, `4.0-onbuild` (*node/vab820-quad/4.0/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c4f86f276a6da51e6c063b00ba52df0ad86f47c3/node/vab820-quad/4.0/onbuild/Dockerfile)
--	[`4.0.0-slim`, `4.0-slim` (*node/vab820-quad/4.0/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4df1311c1ca1df7be056a759030c7eb571d2be54/node/vab820-quad/4.0/slim/Dockerfile)
--	[`4.0.0-wheezy`, `4.0-wheezy` (*node/vab820-quad/4.0/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4df1311c1ca1df7be056a759030c7eb571d2be54/node/vab820-quad/4.0/wheezy/Dockerfile)
--	[`0.10.22` (*node/vab820-quad/default/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4df1311c1ca1df7be056a759030c7eb571d2be54/node/vab820-quad/default/Dockerfile)
+-	[`0.10.41`, `0.10` (*node/vab820-quad/0.10/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/node/vab820-quad/0.10/Dockerfile)
+-	[`0.10.41-onbuild`, `0.10-onbuild` (*node/vab820-quad/0.10/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/node/vab820-quad/0.10/onbuild/Dockerfile)
+-	[`0.10.41-slim`, `0.10-slim` (*node/vab820-quad/0.10/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/node/vab820-quad/0.10/slim/Dockerfile)
+-	[`0.10.41-wheezy`, `0.10-wheezy` (*node/vab820-quad/0.10/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/node/vab820-quad/0.10/wheezy/Dockerfile)
+-	[`0.12.9`, `0.12` (*node/vab820-quad/0.12/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/22e06093d343189f1d7c0b1c6904528638a99640/node/vab820-quad/0.12/Dockerfile)
+-	[`0.12.9-onbuild`, `0.12-onbuild` (*node/vab820-quad/0.12/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/node/vab820-quad/0.12/onbuild/Dockerfile)
+-	[`0.12.9-slim`, `0.12-slim` (*node/vab820-quad/0.12/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/node/vab820-quad/0.12/slim/Dockerfile)
+-	[`0.12.7-wheezy`, `0.12-wheezy` (*node/vab820-quad/0.12/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/22e06093d343189f1d7c0b1c6904528638a99640/node/vab820-quad/0.12/wheezy/Dockerfile)
+-	[`4.2.4`, `4.2` (*node/vab820-quad/4.2/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/node/vab820-quad/4.2/Dockerfile)
+-	[`4.2.4-onbuild`, `4.2-onbuild` (*node/vab820-quad/4.2/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/node/vab820-quad/4.2/onbuild/Dockerfile)
+-	[`4.2.4-slim`, `4.2-slim` (*node/vab820-quad/4.2/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/node/vab820-quad/4.2/slim/Dockerfile)
+-	[`4.2.4-wheezy`, `4.2-wheezy` (*node/vab820-quad/4.2/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/node/vab820-quad/4.2/wheezy/Dockerfile)
+-	[`5.3.0`, `5.3`, `0`, `latest` (*node/vab820-quad/5.3/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/node/vab820-quad/5.3/Dockerfile)
+-	[`5.3.0-onbuild`, `5.3-onbuild`, `0-onbuild`, `onbuild` (*node/vab820-quad/5.3/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/node/vab820-quad/5.3/onbuild/Dockerfile)
+-	[`5.3.0-slim`, `5.3-slim`, `0-slim`, `slim` (*node/vab820-quad/5.3/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/node/vab820-quad/5.3/slim/Dockerfile)
+-	[`5.3.0-wheezy`, `5.3-wheezy`, `0-wheezy`, `wheezy` (*node/vab820-quad/5.3/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/node/vab820-quad/5.3/wheezy/Dockerfile)
+-	[`0.10.22` (*node/vab820-quad/default/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/node/vab820-quad/default/Dockerfile)
 -	[`0.10.22-onbuild` (*node/vab820-quad/default/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/2fa97540911026369eaf9bd1574a8e7b59e99091/node/vab820-quad/default/onbuild/Dockerfile)
--	[`0.10.22-slim` (*node/vab820-quad/default/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4df1311c1ca1df7be056a759030c7eb571d2be54/node/vab820-quad/default/slim/Dockerfile)
--	[`0.10.22-wheezy` (*node/vab820-quad/default/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4df1311c1ca1df7be056a759030c7eb571d2be54/node/vab820-quad/default/wheezy/Dockerfile)
+-	[`0.10.22-slim` (*node/vab820-quad/default/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/node/vab820-quad/default/slim/Dockerfile)
+-	[`0.10.22-wheezy` (*node/vab820-quad/default/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/node/vab820-quad/default/wheezy/Dockerfile)
 
 For more information about this image and its history, please see the [relevant manifest file (`resin/vab820-quad-node`)](https://github.com/resin-io-library/official-images/blob/master/library/vab820-quad-node) in the [`resin-io-library/official-images` GitHub repo](https://github.com/resin-io-library/official-images).
 
@@ -72,7 +68,7 @@ View [license information](https://github.com/joyent/node/blob/master/LICENSE) f
 
 # Supported Docker versions
 
-This image is officially supported on Docker version 1.8.3.
+This image is officially supported on Docker version 1.9.1.
 
 Support for older versions (down to 1.0) is provided on a best-effort basis.
 

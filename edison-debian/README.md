@@ -1,7 +1,7 @@
 # Supported tags and respective `Dockerfile` links
 
--	[`jessie`, `latest` (*device-base/edison/jessie/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/08c056f37dbb5ab0c1b35ce981c16597533bfa6d/device-base/edison/jessie/Dockerfile)
--	[`wheezy` (*device-base/edison/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/08c056f37dbb5ab0c1b35ce981c16597533bfa6d/device-base/edison/wheezy/Dockerfile)
+-	[`jessie`, `latest` (*device-base/edison/jessie/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/264e3a976f6f9b2b0209515989445e47b48275a1/device-base/edison/jessie/Dockerfile)
+-	[`wheezy` (*device-base/edison/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/264e3a976f6f9b2b0209515989445e47b48275a1/device-base/edison/wheezy/Dockerfile)
 
 For more information about this image and its history, please see the [relevant manifest file (`resin/edison-debian`)](https://github.com/resin-io-library/official-images/blob/master/library/edison-debian) in the [`resin-io-library/official-images` GitHub repo](https://github.com/resin-io-library/official-images).
 
@@ -31,7 +31,7 @@ View [license information](https://www.debian.org/social_contract#guidelines) fo
 
 # Supported Docker versions
 
-This image is officially supported on Docker version 1.8.3.
+This image is officially supported on Docker version 1.9.1.
 
 Support for older versions (down to 1.0) is provided on a best-effort basis.
 

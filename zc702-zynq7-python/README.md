@@ -1,7 +1,6 @@
 # Supported tags and respective `Dockerfile` links
 
--	[`jessie`, `latest` (*python/zc702-zynq7/jessie/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/11b45b65c22c2965ee75e8a6a7b6ab8a1dab027b/python/zc702-zynq7/jessie/Dockerfile)
--	[`wheezy` (*python/zc702-zynq7/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/11b45b65c22c2965ee75e8a6a7b6ab8a1dab027b/python/zc702-zynq7/wheezy/Dockerfile)
+
 
 For more information about this image and its history, please see the [relevant manifest file (`resin/zc702-zynq7-python`)](https://github.com/resin-io-library/official-images/blob/master/library/zc702-zynq7-python) in the [`resin-io-library/official-images` GitHub repo](https://github.com/resin-io-library/official-images).
 
@@ -31,7 +30,7 @@ View [license information](https://docs.python.org/2/license.html) for the softw
 
 # Supported Docker versions
 
-This image is officially supported on Docker version 1.8.3.
+This image is officially supported on Docker version 1.9.1.
 
 Support for older versions (down to 1.0) is provided on a best-effort basis.
 
