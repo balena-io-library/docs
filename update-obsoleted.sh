@@ -3,7 +3,7 @@ set -e
 
 cd "$(dirname "$(readlink -f "$BASH_SOURCE")")"
 
-repos='rpi-nodejs rpi-node armv7hf-node rpi-buildpack-deps armv7hf-buildpack-deps i386-node i386-buildpack-deps armel-node'
+repos='rpi-nodejs rpi-node armv7hf-node rpi-buildpack-deps armv7hf-buildpack-deps i386-node i386-buildpack-deps armel-node amd64-node'
 
 for repo in $repos; do
 	# Clean up old directory

@@ -95,6 +95,11 @@ declare -A otherRepos=(
 	[ts7700-node]='https://github.com/resin-io-library/base-images'
 	[ts7700-python]='https://github.com/resin-io-library/base-images'
 	[ts7700-golang]='https://github.com/resin-io-library/base-images'
+	[raspberrypi3-debian]='https://github.com/resin-io-library/base-images'
+	[raspberrypi3-buildpack-deps]='https://github.com/resin-io-library/base-images'
+	[raspberrypi3-node]='https://github.com/resin-io-library/base-images'
+	[raspberrypi3-python]='https://github.com/resin-io-library/base-images'
+	[raspberrypi3-golang]='https://github.com/resin-io-library/base-images'
 )
 
 dockerLatest="$(curl -sSL 'https://get.docker.com/latest')"
