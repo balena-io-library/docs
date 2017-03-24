@@ -1,6 +1,6 @@
-# What is Beaglebone-green-wifi-debian?
+# What is beaglebone-green-wifi-debian?
 
-The bare bones OS image for Beaglebone Green. With apt sources.list from repositories: [http://repos.rcn-ee.net/debian/](http://repos.rcn-ee.net/debian/) and [http://debian.beagleboard.org](http://debian.beagleboard.org/) added.
+The bare bones OS image for Beaglebone Green Wireless.
 
 # How to use this image
 

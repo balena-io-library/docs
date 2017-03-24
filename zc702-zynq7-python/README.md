@@ -1,12 +1,31 @@
 # Supported tags and respective `Dockerfile` links
 
+-	[`2.7.11`, `2.7`, `latest` (*python/cubox-i/2.7/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/22e06093d343189f1d7c0b1c6904528638a99640/python/cubox-i/2.7/Dockerfile)
+-	[`2.7.11-onbuild`, `2.7-onbuild`, `onbuild` (*python/cubox-i/2.7/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/python/cubox-i/2.7/onbuild/Dockerfile)
+-	[`2.7.11-slim`, `2.7-slim`, `slim` (*python/cubox-i/2.7/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/22e06093d343189f1d7c0b1c6904528638a99640/python/cubox-i/2.7/slim/Dockerfile)
+-	[`2.7.11-wheezy`, `2.7-wheezy`, `wheezy` (*python/cubox-i/2.7/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/22e06093d343189f1d7c0b1c6904528638a99640/python/cubox-i/2.7/wheezy/Dockerfile)
+-	[`3.2.6`, `3.2` (*python/cubox-i/3.2/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/python/cubox-i/3.2/Dockerfile)
+-	[`3.2.6-onbuild`, `3.2-onbuild` (*python/cubox-i/3.2/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/a61f20f2fd715789d89f0c262b74cb63934b84c9/python/cubox-i/3.2/onbuild/Dockerfile)
+-	[`3.2.6-slim`, `3.2-slim` (*python/cubox-i/3.2/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/python/cubox-i/3.2/slim/Dockerfile)
+-	[`3.2.6-wheezy`, `3.2-wheezy` (*python/cubox-i/3.2/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/python/cubox-i/3.2/wheezy/Dockerfile)
+-	[`3.3.6`, `3.3` (*python/cubox-i/3.3/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/python/cubox-i/3.3/Dockerfile)
+-	[`3.3.6-onbuild`, `3.3-onbuild` (*python/cubox-i/3.3/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/a61f20f2fd715789d89f0c262b74cb63934b84c9/python/cubox-i/3.3/onbuild/Dockerfile)
+-	[`3.3.6-slim`, `3.3-slim` (*python/cubox-i/3.3/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/python/cubox-i/3.3/slim/Dockerfile)
+-	[`3.3.6-wheezy`, `3.3-wheezy` (*python/cubox-i/3.3/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/python/cubox-i/3.3/wheezy/Dockerfile)
+-	[`3.4.4`, `3.4` (*python/cubox-i/3.4/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/python/cubox-i/3.4/Dockerfile)
+-	[`3.4.4-onbuild`, `3.4-onbuild` (*python/cubox-i/3.4/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/python/cubox-i/3.4/onbuild/Dockerfile)
+-	[`3.4.4-slim`, `3.4-slim` (*python/cubox-i/3.4/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/python/cubox-i/3.4/slim/Dockerfile)
+-	[`3.4.4-wheezy`, `3.4-wheezy` (*python/cubox-i/3.4/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/python/cubox-i/3.4/wheezy/Dockerfile)
+-	[`3.5.1`, `3.5` (*python/cubox-i/3.5/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/python/cubox-i/3.5/Dockerfile)
+-	[`3.5.1-onbuild`, `3.5-onbuild` (*python/cubox-i/3.5/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/python/cubox-i/3.5/onbuild/Dockerfile)
+-	[`3.5.1-slim`, `3.5-slim` (*python/cubox-i/3.5/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/python/cubox-i/3.5/slim/Dockerfile)
+-	[`3.5.1-wheezy`, `3.5-wheezy` (*python/cubox-i/3.5/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c6ec6680c3d256c02e773bf29e7d907e132c542a/python/cubox-i/3.5/wheezy/Dockerfile)
 
+For more information about this image and its history, please see the [relevant manifest file (`resin/cubox-i-python`)](https://github.com/resin-io-library/official-images/blob/master/library/cubox-i-python) in the [`resin-io-library/official-images` GitHub repo](https://github.com/resin-io-library/official-images).
 
-For more information about this image and its history, please see the [relevant manifest file (`resin/zc702-zynq7-python`)](https://github.com/resin-io-library/official-images/blob/master/library/zc702-zynq7-python) in the [`resin-io-library/official-images` GitHub repo](https://github.com/resin-io-library/official-images).
+# What is cubox-i-python?
 
-# What is zc702-zynq7-python?
-
-The Python buildpack image for Python apps for Zynq ZC702.
+The Python buildpack image for Python apps for Hummingboard.
 
 # How to use this image
 
@@ -14,7 +33,7 @@ Systemd can be enabled by adding `ENV INITSYSTEM on` to your Dockerfile below th
 
 ## Create a `Dockerfile` in your python app project
 
-	FROM resin/zc702-zynq7-python:latest
+	FROM resin/cubox-i-python:latest
 	# Enable systemd
 	ENV INITSYSTEM on
 	# Your code goes here

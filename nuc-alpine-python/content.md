@@ -1,15 +1,15 @@
 # What is nuc-alpine-python?
 
-The Python buildpack image for Python apps for Intel NUC.
+The Python buildpack image for Python apps.
 
 # How to use this image
 
-Systemd can be enabled by adding `ENV INITSYSTEM on` to your Dockerfile below the `FROM <Docker image>` line. This will trigger systemd init system on the Docker image.
+OpenRC can be enabled by adding `ENV INITSYSTEM on` to your Dockerfile below the `FROM <Docker image>` line. This will trigger OpenRC init system on the Docker image.
 
 ## Create a `Dockerfile` in your python app project
 
 	FROM resin/nuc-alpine-python:latest
-	# Enable systemd
+	# Enable OpenRC
 	ENV INITSYSTEM on
 	# Your code goes here
 

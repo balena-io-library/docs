@@ -12,12 +12,12 @@ Node.js internally uses the Google V8 JavaScript engine to execute code; a large
 
 # How to use this image
 
-Systemd can be enabled by adding `ENV INITSYSTEM on` to your Dockerfile below the `FROM <Docker image>` line. This will trigger systemd init system on the Docker image.
+OpenRC can be enabled by adding `ENV INITSYSTEM on` to your Dockerfile below the `FROM <Docker image>` line. This will trigger OpenRC init system on the Docker image.
 
 ## Create a `Dockerfile` in your Node.js app project
 
 	FROM resin/nitrogen6x-alpine-node:onbuild
-	# Enable systemd
+	# Enable OpenRC
 	ENV INITSYSTEM on
 	# replace this with your application's default port
 	EXPOSE 8888

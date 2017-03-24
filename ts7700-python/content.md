@@ -1,6 +1,6 @@
 # What is ts7700-python?
 
-The Python buildpack image for Python apps for Technologic TS-7700.
+The Python buildpack image for Python apps for TS-7700.
 
 # How to use this image
 

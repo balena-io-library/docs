@@ -1,6 +1,6 @@
 # What is apalis-imx6-debian?
 
-The bare bones OS image for Apalis iMX6q.
+The bare bones OS image for Apslis iMX6q.
 
 # How to use this image
 

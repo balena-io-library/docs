@@ -1,6 +1,6 @@
-# What is Raspberrypi-python?
+# What is raspberrypi-python?
 
-The Python buildpack image for Python apps for Raspberry Pi.
+The Python buildpack image for Python apps for Raspberry Pi v1 & ZERO.
 
 # How to use this image
 

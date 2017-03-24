@@ -1,4 +1,4 @@
-# What is Edison-debian?
+# What is edison-debian?
 
 The bare bones OS image for Intel Edison.
 

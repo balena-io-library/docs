@@ -1,6 +1,6 @@
-# What is Beaglebone-debian?
+# What is beaglebone-debian?
 
-The bare bones OS image for Beaglebone. With apt sources.list from repositories: [http://repos.rcn-ee.net/debian/](http://repos.rcn-ee.net/debian/) and [http://debian.beagleboard.org](http://debian.beagleboard.org/) added.
+The bare bones OS image for Beaglebone Black.
 
 # How to use this image
 

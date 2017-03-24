@@ -1,6 +1,6 @@
 # What is ts4900-python?
 
-The Python buildpack image for Python apps for Technologic TS-4900.
+The Python buildpack image for Python apps for TS-4900.
 
 # How to use this image
 

@@ -1,4 +1,4 @@
-# What is Raspberrypi3-python?
+# What is raspberrypi3-python?
 
 The Python buildpack image for Python apps for Raspberry Pi 3.
 

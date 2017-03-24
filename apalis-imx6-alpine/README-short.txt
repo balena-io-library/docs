@@ -1,1 +1,2 @@
-The bare bones Alpine Linux OS image for Apalis iMX6q.
+The bare bones Alpine Linux OS image for Apslis iMX6q.
+This image is maintained by [Resin.io](https://resin.io/)

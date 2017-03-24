@@ -1,1 +1,2 @@
-The Python buildpack image for Python apps for odroid-c1.
+The Python buildpack image for Python apps.
+This image is maintained by [Resin.io](https://resin.io/)

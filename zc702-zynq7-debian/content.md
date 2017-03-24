@@ -1,6 +1,6 @@
 # What is zc702-zynq7-debian?
 
-The bare bones OS image for Raspberry Pi 2. Apt sources.list from raspbian repository: [http://archive.raspbian.org/raspbian/](http://archive.raspbian.org/raspbian/) added.
+The bare bones OS image for Zynq ZC702.
 
 # How to use this image
 

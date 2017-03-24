@@ -1,6 +1,6 @@
-# What is Raspberrypi2-debian?
+# What is raspberrypi2-debian?
 
-The bare bones OS image for Raspberry Pi 2. Apt sources.list from raspbian repository: [http://archive.raspbian.org/raspbian/](http://archive.raspbian.org/raspbian/) added.
+The bare bones OS image for Raspberry Pi 2.
 
 # How to use this image
 

@@ -1,15 +1,15 @@
-# What is Beaglebone-green-wifi-alpine-python?
+# What is beaglebone-green-wifi-alpine-python?
 
-The Python buildpack image for Python apps for Beaglebone Green.
+The Python buildpack image for Python apps.
 
 # How to use this image
 
-Systemd can be enabled by adding `ENV INITSYSTEM on` to your Dockerfile below the `FROM <Docker image>` line. This will trigger systemd init system on the Docker image.
+OpenRC can be enabled by adding `ENV INITSYSTEM on` to your Dockerfile below the `FROM <Docker image>` line. This will trigger OpenRC init system on the Docker image.
 
 ## Create a `Dockerfile` in your python app project
 
 	FROM resin/beaglebone-green-wifi-alpine-python:latest
-	# Enable systemd
+	# Enable OpenRC
 	ENV INITSYSTEM on
 	# Your code goes here
 

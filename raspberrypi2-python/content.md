@@ -1,4 +1,4 @@
-# What is Raspberrypi2-python?
+# What is raspberrypi2-python?
 
 The Python buildpack image for Python apps for Raspberry Pi 2.
 

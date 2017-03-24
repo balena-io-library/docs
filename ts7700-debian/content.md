@@ -1,6 +1,6 @@
 # What is ts7700-debian?
 
-The bare bones OS image for Technologic TS-7700.
+The bare bones OS image for TS-7700.
 
 # How to use this image
 

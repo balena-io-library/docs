@@ -1,6 +1,6 @@
 # What is apalis-imx6-python?
 
-The Python buildpack image for Python apps for Apalis iMX6q.
+The Python buildpack image for Python apps for Apslis iMX6q.
 
 # How to use this image
 

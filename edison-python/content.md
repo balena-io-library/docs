@@ -1,4 +1,4 @@
-# What is Edison-python?
+# What is edison-python?
 
 The Python buildpack image for Python apps for Intel Edison.
 

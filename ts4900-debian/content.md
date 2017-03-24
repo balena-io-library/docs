@@ -1,6 +1,6 @@
 # What is ts4900-debian?
 
-The bare bones OS image for Technologic TS-4900.
+The bare bones OS image for TS-4900.
 
 # How to use this image
 

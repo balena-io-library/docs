@@ -1,6 +1,6 @@
-# What is Beaglebone-python?
+# What is beaglebone-python?
 
-The Python buildpack image for Python apps for beaglebone.
+The Python buildpack image for Python apps for Beaglebone Black.
 
 # How to use this image
 

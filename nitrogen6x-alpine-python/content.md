@@ -1,15 +1,15 @@
 # What is nitrogen6x-alpine-python?
 
-The Python buildpack image for Python apps for Nitrogen 6X.
+The Python buildpack image for Python apps.
 
 # How to use this image
 
-Systemd can be enabled by adding `ENV INITSYSTEM on` to your Dockerfile below the `FROM <Docker image>` line. This will trigger systemd init system on the Docker image.
+OpenRC can be enabled by adding `ENV INITSYSTEM on` to your Dockerfile below the `FROM <Docker image>` line. This will trigger OpenRC init system on the Docker image.
 
 ## Create a `Dockerfile` in your python app project
 
-	FROM resin/beaglebone-alpine-python:latest
-	# Enable systemd
+	FROM resin/nitrogen6x-alpine-python:latest
+	# Enable OpenRC
 	ENV INITSYSTEM on
 	# Your code goes here
 

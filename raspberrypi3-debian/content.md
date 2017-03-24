@@ -1,6 +1,6 @@
-# What is Raspberrypi3-debian?
+# What is raspberrypi3-debian?
 
-The bare bones OS image for Raspberry Pi 3. Apt sources.list from raspbian repository: [http://archive.raspbian.org/raspbian/](http://archive.raspbian.org/raspbian/) added.
+The bare bones OS image for Raspberry Pi 3.
 
 # How to use this image
 

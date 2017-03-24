@@ -1,6 +1,6 @@
-# What is Beaglebone-green-wifi-python?
+# What is beaglebone-green-wifi-python?
 
-The Python buildpack image for Python apps for Beaglebone Green.
+The Python buildpack image for Python apps for Beaglebone Green Wireless.
 
 # How to use this image
 
