@@ -1,2 +1,2 @@
-Debian Base image for i386 Devices.
-This image is maintained by [Resin.io](https://resin.io/)
+Debian is a Linux distro composed entirely of free and open-source software.
+Maintained by Resin.io.

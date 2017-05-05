@@ -1,2 +1,2 @@
-Node.js is a JavaScript-based platform for server-side and networking applications.
-This image is maintained by [Resin.io](https://resin.io/)
+Node.js is a JavaScript-based platform for server-side and networking apps.
+Maintained by Resin.io.

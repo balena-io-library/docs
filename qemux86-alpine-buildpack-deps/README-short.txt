@@ -1,2 +1,2 @@
-A collection of common build dependencies used for installing various modules, e.g., gems.
-This image is maintained by [Resin.io](https://resin.io/)
+A collection of common dependencies used for installing various modules.
+Maintained by Resin.io.

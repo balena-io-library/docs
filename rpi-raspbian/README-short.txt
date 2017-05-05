@@ -1,2 +1,2 @@
-Base image for the Raspberry Pi.
-This image is maintained by [Resin.io](https://resin.io/)
+Raspbian is a free OS based on Debian optimized for Raspberry Pi hardware.
+Maintained by Resin.io.
