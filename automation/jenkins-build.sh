@@ -50,9 +50,9 @@ bash update.sh armel-debian rpi-raspbian armv7hf-debian i386-debian amd64-debian
 	apalis-imx6q-fedora apalis-imx6q-fedora-buildpack-deps apalis-imx6q-fedora-golang apalis-imx6q-fedora-node apalis-imx6q-fedora-python apalis-imx6q-fedora-openjdk \
 	ts7700-debian ts7700-buildpack-deps ts7700-golang ts7700-node ts7700-python ts7700-openjdk \
 	ts7700-alpine ts7700-alpine-buildpack-deps ts7700-alpine-golang ts7700-alpine-node ts7700-alpine-python ts7700-alpine-openjdk \
-	raspberry-pi3-debian raspberry-pi3-buildpack-deps raspberry-pi3-golang raspberry-pi3-node raspberry-pi3-python raspberry-pi3-openjdk \
-	raspberry-pi3-alpine raspberry-pi3-alpine-buildpack-deps raspberry-pi3-alpine-golang raspberry-pi3-alpine-node raspberry-pi3-alpine-python raspberry-pi3-alpine-openjdk \
-	raspberry-pi3-fedora raspberry-pi3-fedora-buildpack-deps raspberry-pi3-fedora-golang raspberry-pi3-fedora-node raspberry-pi3-fedora-python raspberry-pi3-fedora-openjdk \
+	raspberrypi3-debian raspberrypi3-buildpack-deps raspberrypi3-golang raspberrypi3-node raspberrypi3-python raspberrypi3-openjdk \
+	raspberrypi3-alpine raspberrypi3-alpine-buildpack-deps raspberrypi3-alpine-golang raspberrypi3-alpine-node raspberrypi3-alpine-python raspberrypi3-alpine-openjdk \
+	raspberrypi3-fedora raspberrypi3-fedora-buildpack-deps raspberrypi3-fedora-golang raspberrypi3-fedora-node raspberrypi3-fedora-python raspberrypi3-fedora-openjdk \
 	artik5-debian artik5-buildpack-deps artik5-golang artik5-node artik5-python artik5-openjdk \
 	artik5-alpine artik5-alpine-buildpack-deps artik5-alpine-golang artik5-alpine-node artik5-alpine-python artik5-alpine-openjdk \
 	artik5-fedora artik5-fedora-buildpack-deps artik5-fedora-golang artik5-fedora-node artik5-fedora-python artik5-fedora-openjdk \
